@@ -6,7 +6,7 @@
    ============================================================ */
 
 // ---- Config -------------------------------------------------
-const GEMINI_API_KEY = "AQ.Ab8RN6L1sgC-G0zzvkvy5C869I_147SYQBg92s4Wra5x8ksQFw";
+const GEMINI_API_KEY = "PASTE_THE_KEY_YOU_JUST_COPIED";
 const GEMINI_MODEL = "gemini-3.5-flash-lite"; // change here if Google renames/retires this model
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
